@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="437.0" prefWidth="491.0" style="-fx-background-color: #87CEEB;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="ordemcrescente.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="197.0" layoutY="219.0" onAction="#ordenar" style="-fx-background-color: #836FFF;" text="ORDENAR">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font></Button>
+        <Label fx:id="label" layoutX="67.0" layoutY="86.0" minHeight="16" minWidth="69" text="NUMERO 1:">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font></Label>
+      <Label fx:id="label1" layoutX="67.0" layoutY="132.0" minHeight="16" minWidth="69" text="NUMERO 2:">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="label2" layoutX="67.0" layoutY="175.0" minHeight="16" minWidth="69" text="NUMERO 3:">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="label21" layoutX="172.0" layoutY="14.0" minHeight="16" minWidth="69" prefHeight="41.0" prefWidth="215.0" text="ORDENAR NUMEROS">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="cxnum1" layoutX="172.0" layoutY="82.0">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="cxnum2" layoutX="172.0" layoutY="127.0">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="cxnum3" layoutX="172.0" layoutY="170.0">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </TextField>
+      <TextArea fx:id="cxresult" layoutX="72.0" layoutY="261.0" prefHeight="155.0" prefWidth="368.0" />
+    </children>
+</AnchorPane>
